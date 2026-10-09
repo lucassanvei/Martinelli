@@ -1,0 +1,38 @@
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+    background-color: rgb(255, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgLogo{
+    width: 130px;
+    height: auto;
+    object-fit: contain;
+    margin: 1px;
+}
+
+.Menu ul{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.Menu a:hover {
+    background-color: rgb(155, 155, 155);
+}

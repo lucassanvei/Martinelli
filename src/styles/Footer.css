@@ -1,0 +1,14 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.rodape .titulo{
+    color: #000000;
+    color: rgb(0, 0, 0);
+}
